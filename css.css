@@ -1,0 +1,95 @@
+.font{
+
+/* Font related */
+
+font-size:55px;
+font-weight: bold;
+color: yellow;
+background-color:white;
+
+/* Border */
+
+border:1px solid gray;
+border-left:1px solid gray;
+border-right:1px solid gray;
+border-top:1px solid gray;
+border-bottom:12px solid gray;
+
+border-radius:10px;
+border-radius:10px 5px 20px 0px;
+
+/* Box model */
+
+marggin:1px 1px 1px 1px;
+margin-top:1px;
+margin-right:1px;
+margin-bottom:1px;
+margin-left:1px;
+
+padding:15px;
+padding-top:1px;
+padding-right:1px;
+padding-bottom:1px;
+padding-left:1px;
+
+box-shadow: 5px 10px;
+text-shadow: 5px 10px;
+
+
+text-align: left;
+text-align: right;
+text-align: center;
+
+vertical-align:middle:
+vertical-align:bottom:
+vertical-align:top:
+
+display: none;
+display: block;
+visibility:hidden;
+visibility:unset;
+
+overflow-x: scroll;
+overflow-y: auto;
+overflow: auto;
+
+
+
+}
+
+
+/* ways to apply css */
+
+.test {			
+ color:green;
+}
+
+.font > div{
+color:green;
+}
+
+#test2 {		
+color:red;
+}
+
+h1 {			
+  color: red;
+}
+
+
+
+
+
+
+/* other */
+
+.font2{
+color:red !important;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>   //tags
+  <head>
+	title   // not mandantory
+	script	// not mandantory
+	styles  // not mandantory
+  </head>
+
+  <body>
+	all html tags. it will show in browser
+  </body>
+</html>
