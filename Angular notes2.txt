@@ -1,0 +1,106 @@
+
+
+-----------------------------------------------------------
+data types: string, number, boolean, object, array
+
+var1: string = "Raju";	//var1 is variables
+var2: number = 123;
+var3: boolean = true/false;
+var4 = {a:20, b:"raju"};  //a is key, 20 is value
+var5 = ["raju","venu"];
+
+-------------------------------------
+Object:
+
+d = {firstName:"raju", lastname:"gaddam", age:30}
+
+console.log(d.firstName);
+
+d.place="hyd";
+console.log(d.place);
+
+delete d.age;
+console.log(d.hasOwnProperty("firstName"))
+
+-----------------------------------------
+ARRAY:
+arr= [1,2,3]
+arr[0]; 
+arr.push(4);	//[1,2,3,4]
+arr.pop();	//[1,2,3]
+arr.shift(0);	//[0,1,2,3]
+arr.unshift();	//[1,2,3]
+
+arr.includes(1);   //to check wether 1 is svaliable in array or not .return true/false
+----------------------------------------
+
+add(a,b){     	//here parameters a,b   , method name "add".
+ return a+b;
+}
+ calling method:
+var sum = add(1,2); 	//here arguments 1, 2
+
+-------------------------------------------------------
+
+
+add(a,b):number {     
+ return a+b;
+}
+ calling method:
+var sum = add(1,2);
+
+-----------------------------------------
+
+class component {
+data:number = 10;  //variables/properties
+oninit(){ }	   //functions
+}
+
+obj = new component();	//creating object or class component
+obj.data;		//accessing property/varibale
+obj.oninit();		//accessing methods using object
+
+-------------------------------------------
+
+interface inter1 {
+oninit();		//it contains methods dclarations  without body
+}
+
+class raju impliments inter1 {
+oninit(){
+ var a=10;
+}
+}
+
+
+class venu impliments inter1{
+oninit(){
+var a=20;
+}
+}
+
+-------------------------------------------------
+
+
+
+
+
+angular Building blocks:
+Modules	     -- collection of components , directives, pipes , services
+componenets  -4 files used to develop screen
+directives
+pipes
+services
+gaurds
+intecepters
+
+
+---------------------------
+
+component: used to create a single page/ part of page
+	component.ts -- used write typescript  /javascript code
+
+
+
+
+

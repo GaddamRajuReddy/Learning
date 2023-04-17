@@ -1,0 +1,73 @@
+HTML: used for display html elements/tags in browser window.  example.html 
+
+CSS: used for align above html elements/tags.  example.css
+
+Javascript: used for actions like button click, movemovements . example.js
+
+
+
+how to access js, css in html?  
+1 external
+2 internal
+3 inline
+
+
+
+id, name, class, style -- attributed common for all elements 
+
+bootstram , meterilize -- css framwworks
+
+-----------------------------------------------------------
+data types: string, number, boolean, object, array
+
+var1: string = "Raju";
+var2: number = 123;
+var3: boolean = true/false;
+var4 = {a:20, b:"raju"};  //a is key, 20 is value
+var5 = ["raju","venu"];
+
+-------------------------------------
+Object:
+
+var d = {firstName:"raju", lastname:"gaddam", age:30}
+
+console.log(d.firstName);
+
+d.place="hyd";
+console.log(d.place);
+
+delete d.age;
+console.log(d.hasOwnProperty("firstName"))
+
+-----------------------------------------
+ARRAY:
+var arr= [1,2,3]
+arr[0]; 
+arr.push(4);	//[1,2,3,4]
+arr.pop();	//[1,2,3]
+arr.shift(0);	//[0,1,2,3]
+arr.unshift();	//[1,2,3]
+
+arr.includes(1);   //to check wether 1 is svaliable in array or not .return true/false
+
+----------------------------------------
+
+function add(a,b){     	//here parameters a,b   , method name "add".
+ return a+b;
+}
+ calling method:
+var sum = add(1,2); 	//here arguments 1, 2
+
+------------------------------------------
+different way to write funtion:
+
+var X = () => {
+	alert('RAJU');
+}
+
+
+
+
+function Y(x){
+	alert(x.target.value);
+}
